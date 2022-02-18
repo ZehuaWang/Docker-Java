@@ -10,3 +10,9 @@ docker kill $(docker ps -q)
 docker run -v ${PWD}:/hello -w /hello openjdk:11.0.10-buster javac Hello.java
 
 Multi-stage bilds allow you to define multiple intermediate images or stages
+
+With multi-stage build, the Dockerfile can contain multiple FROM instructions, Each From instruction starts a new stage with new 
+
+build context. You can copy artifacts from a stage to a stage with --from, the artifacts of previous stage not copie over are discarded
+
+onl the final stage is kept, allowing you to include the tools in the intermediate stages without increasing the size of the final image.
