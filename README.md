@@ -28,5 +28,20 @@ docker run -m 200m my-image
 
 ## Building Java Applications with Build Tools and Plugins
 
+### Fabric8 Docker Maven Plugin
+
 The fabric8 Docker Maven plugin allows you to build Docker images and manage containers, the plugin communicates directly with the Docker Engine.
+
+### Layered Deployment with Spring Boot
+
+Layers -> Application Dependencies -> Other resources and classes -> Application code -> Most likely to change
+
+reuse the layer that do not change
+
+Spring Boot JAR Structure
+
+BOOT-INF: -classes -lib
+META-INF: -MANIFEST.MF
+org - Springframework - boot -loader
+
 
