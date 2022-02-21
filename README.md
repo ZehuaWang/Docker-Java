@@ -1,6 +1,6 @@
 # Docker-Java
 
-1. 退出所有运行的container
+退出所有运行的container
 
 docker kill $(docker ps -q)
 
