@@ -1,9 +1,10 @@
 # Docker-Java
 
 1. 退出所有运行的container
+
 docker kill $(docker ps -q)
 
- -v bind mount a volume -w woring directory in the container
+-v bind mount a volume -w woring directory in the container
 
 2. 不用在本机安装docker 就可以实现编译运行java文件
 
@@ -24,3 +25,6 @@ Control groups -> limit how much resources like CPU time, system memory, or netw
 Important limits for Containers -> The amount of memory available, The number of available CPUs CPU constraints like shates and quotas
 
 docker run -m 200m my-image
+
+## Building Java Applications with Build Tools and Plugins
+
