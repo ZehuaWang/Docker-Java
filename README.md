@@ -44,6 +44,14 @@ BOOT-INF: -classes -lib
 META-INF: -MANIFEST.MF
 org - Springframework - boot -loader
 
-### Docker Compose
+### Docker Network
 
+Bridge is the default network driver  Create a private local network
 
+Host Removes the isolation between the Docker host and the containers
+
+Overlay Connects multiple Docker engines
+
+Macvlan gives containers a MAC address
+
+None Disables all networking functions in a container.
