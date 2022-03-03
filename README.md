@@ -56,4 +56,4 @@ Macvlan gives containers a MAC address
 
 None Disables all networking functions in a container.
 
-![Docker Network](http://url/to/img.png)
+![Docker Network](https://github.com/ZehuaWang/Docker-Java/blob/main/DOCKERIMG/Screen%20Shot%202022-03-03%20at%206.22.44%20PM.png)
