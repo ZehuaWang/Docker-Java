@@ -69,3 +69,11 @@ To manage more than one container at the same time for the same application.
 You need: Docker file, YAML configure fule - docker-compose.yml, Manage containers - docker-compose (or docker compose) command.
 
 ### Configuring Java Application in Containers
+
+Using environment variables
+
+Passing parameters with ENTRYPOINT and CMD
+
+Mounting external properties files
+
+Overriding Docker Compose configuration files
