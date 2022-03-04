@@ -64,4 +64,6 @@ Create ls inspect connect disconnect rm prune
 
 ### Using Docker compose
 
+To manage more than one container at the same time for the same application.
+
 You need: Docker file, YAML configure fule - docker-compose.yml, Manage containers - docker-compose (or docker compose) command.
