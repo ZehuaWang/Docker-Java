@@ -77,3 +77,7 @@ Passing parameters with ENTRYPOINT and CMD
 Mounting external properties files
 
 Overriding Docker Compose configuration files
+
+Spring Boot Configuration Priority
+
+![Docker Network](https://github.com/ZehuaWang/Docker-Java/blob/main/DOCKERIMG/Screen%20Shot%202022-03-03%20at%209.20.15%20PM.png)
